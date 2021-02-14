@@ -1,0 +1,275 @@
+/*------------------------------------*\
+  # BREAKPOINTS
+\*------------------------------------*/
+
+@mixin breakpoint($class) {
+  @if $class == max-sm {
+    @media (max-width: 768px) {
+      @content;
+    }
+  } @else if $class == sm {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $class == md {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  } @else if $class == lg {
+    @media (min-width: 1366px) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint mixin supports: max-sm, sm, md, lg -- you tried " + $class;
+  }
+}
+
+a {
+  color: #002157;
+  font-weight: 700;
+  &:hover,
+  &:focus {
+    color: #cb1f25;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #65a000;
+  text-align: center;
+
+  .logo-wrapper {
+    margin-bottom: 10px;
+  }
+  .nav-wrapper {
+    margin-top: 10px;
+  }
+
+  .leaves-bckg {
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    // background-image: url('/images/leaves-bg.png');
+    h1 {
+      font-size: 24px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #002157;
+      margin: 0;
+    }
+    p {
+      color: #4b7700;
+      font-weight: 900;
+      font-size: 18px;
+      margin: 0;
+      line-height: 1;
+    }
+  }
+
+  @include breakpoint(sm) {
+    .logo-wrapper {
+      text-align: left;
+      margin-bottom: initial;
+    }
+    .nav-wrapper {
+      text-align: right;
+      margin-top: initial;
+    }
+    .leaves-bckg {
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+  @include breakpoint(lg) {
+    .leaves-bckg {
+      h1 {
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+section {
+  text-align: left;
+  padding: 40px 20px;
+  border-bottom: 1px solid #4b7700;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 700;
+    color: #cb1f25;
+  }
+  h1 {
+    padding: 4px;
+    background-color: #ffffff;
+    //  border: 1px solid #002157;
+    border-radius: 6px;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  &:nth-child(odd) {
+    //  background: #fff;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  textarea {
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    min-height: 100px;
+  }
+  button {
+    padding: 10px;
+  }
+}
+
+// Nav styles
+
+.main-nav--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+
+  .nav {
+    margin: 0 5px;
+    a {
+      padding: 10px 20px;
+      background-color: #ffffff;
+      border-radius: 6px;
+      &:focus,
+      &:active,
+      &:hover {
+        background-color: #fae8e8;
+      }
+    }
+  }
+}
+
+.nav {
+  display: inline-flex;
+}
+
+// Accordion styles
+
+.accordion > .card > .card-header {
+  // background-color: #cb1f25;
+  // color: white;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+}
+
+// Tabs styles
+
+.tab-content,
+.card {
+  padding: 10px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #65a000;
+}
+
+// Carousel styles
+
+.carousel {
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(0, 0, 0, 1) 8%,
+  //   rgba(255, 255, 255, 1) 100%
+  // );
+}
+
+// Footer styles
+
+footer {
+  padding: 60px 0;
+  height: fit-content;
+  // background-color: #fafafa;
+}
+
+// UTILITY
+
+.u-mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.u-color-red {
+  color: #cb1f25;
+}
+.u-color-navy {
+  color: #002157;
+}
+.u-mt-60 {
+  margin-top: 60px !important;
+}
+.u-mb-60 {
+  margin-bottom: 60px !important;
+}
+.u-mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.u-align-items-start {
+  align-items: flex-start !important;
+  justify-content: flex-start;
+}
+.u-align-items-center {
+  align-items: center !important;
+}
+.u-align-items-end {
+  align-items: flex-end !important;
+}
+.u-justify-flex-start {
+  justify-content: flex-start;
+}
+.u-justify-flex-end {
+  justify-content: flex-end;
+}
+.u-position-relative {
+  position: relative !important;
+}
+
+.u-width-fit {
+  width: fit-content !important;
+}
+.u-width-100 {
+  width: 100% !important;
+}
+.u-height-100 {
+  height: 100% !important;
+}
+.u-align-left {
+  text-align: left !important;
+}
+.u-align-center {
+  text-align: center !important;
+}
+.u-align-right {
+  text-align: right !important;
+}
+.u-no-border {
+  border: none !important;
+}

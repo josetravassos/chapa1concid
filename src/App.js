@@ -1,0 +1,24 @@
+import React from 'react';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Integrantes from './Integrantes';
+import Home from './Home';
+
+import './chapa.scss';
+
+const App = () => (
+  <>
+    <Router>
+      <Header></Header>
+      <main>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/integrantes" component={Integrantes}></Route>
+      </main>
+      <Footer></Footer>
+    </Router>
+  </>
+);
+
+export default App;
