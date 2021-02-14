@@ -7,11 +7,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const Propostas = () => (
-  <Section headingText="Nossas propostas">
+  <Section headingText="Nossas propostas" className="u-mt-zero">
     <Row xs={1} md={2}>
       <Col>
         <Accordion defaultActiveKey="0">
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="0">
               Eventos...
             </Accordion.Toggle>
@@ -24,7 +24,7 @@ const Propostas = () => (
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="1">
               Para mulheres...
             </Accordion.Toggle>
@@ -35,7 +35,7 @@ const Propostas = () => (
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="2">
               Palestras...
             </Accordion.Toggle>
@@ -48,7 +48,7 @@ const Propostas = () => (
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="3">
               Comemorações...
             </Accordion.Toggle>
@@ -63,7 +63,7 @@ const Propostas = () => (
       </Col>
       <Col>
         <Accordion defaultActiveKey="0">
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="0">
               Serviçoes em Português...
             </Accordion.Toggle>
@@ -76,7 +76,7 @@ const Propostas = () => (
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="1">
               LGBTQ+...
             </Accordion.Toggle>
@@ -87,7 +87,7 @@ const Propostas = () => (
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="2">
               Palestras...
             </Accordion.Toggle>
@@ -100,7 +100,7 @@ const Propostas = () => (
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card>
+          <Card className="u-transp-bckg">
             <Accordion.Toggle as={Card.Header} eventKey="3">
               Educação e Cultura...
             </Accordion.Toggle>

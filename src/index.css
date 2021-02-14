@@ -6,7 +6,7 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('/images/hands-full.png') no-repeat left top;
+  background: url('/images/hands-square.jpg') no-repeat left top;
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;

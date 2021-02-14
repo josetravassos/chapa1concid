@@ -6,7 +6,7 @@ const Section = ({ children, headingLevel = 1, headingText }) => {
   const H = `h${headingLevel}`;
   return (
     <section>
-      <H className="u-align-center u-mb-60">{headingText}</H>
+      <H className="u-align-center u-mb-30 u-transp-bckg-10">{headingText}</H>
       <Container>{children}</Container>
     </section>
   );

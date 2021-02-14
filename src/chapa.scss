@@ -57,6 +57,7 @@ header {
     h1 {
       font-size: 24px;
       font-weight: 900;
+      text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
       text-transform: uppercase;
       color: #002157;
       margin: 0;
@@ -67,6 +68,7 @@ header {
       font-size: 18px;
       margin: 0;
       line-height: 1;
+      text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
     }
   }
 
@@ -99,7 +101,7 @@ header {
 
 section {
   text-align: left;
-  padding: 40px 20px;
+  padding: 60px 0;
   border-bottom: 1px solid #4b7700;
 
   h1,
@@ -108,19 +110,20 @@ section {
   h4,
   h5 {
     font-weight: 700;
-    color: #cb1f25;
+    color: #002157;
+    text-shadow: -1px 2px 2px rgba(255, 255, 255, 0.35);
   }
   h1 {
     padding: 4px;
-    background-color: #ffffff;
+    // background-color: #ffffff;
     //  border: 1px solid #002157;
     border-radius: 6px;
     max-width: 480px;
     margin: 0 auto;
   }
 
-  &:nth-child(odd) {
-    //  background: #fff;
+  &:nth-child(1) {
+    padding-top: 0;
   }
 }
 form {
@@ -152,6 +155,8 @@ form {
   .nav {
     margin: 0 5px;
     a {
+      transition: background-color 0.3s linear;
+      margin: 0.5em;
       padding: 10px 20px;
       background-color: #ffffff;
       border-radius: 6px;
@@ -183,6 +188,7 @@ form {
 
 .tab-content,
 .card {
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 10px;
 }
 
@@ -221,6 +227,9 @@ footer {
 }
 .u-color-navy {
   color: #002157;
+}
+.u-mt-zero {
+  margin-top: 0 !important;
 }
 .u-mt-60 {
   margin-top: 60px !important;
@@ -272,4 +281,11 @@ footer {
 }
 .u-no-border {
   border: none !important;
+}
+
+.u-transp-bckg {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.u-transp-bckg-10 {
+  background-color: rgba(255, 255, 255, 0.3);
 }
