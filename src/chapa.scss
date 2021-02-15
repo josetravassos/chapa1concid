@@ -38,7 +38,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid #65a000;
+  // border-bottom: 1px solid #65a000;
   text-align: center;
 
   .logo-wrapper {
@@ -110,7 +110,7 @@ section {
   h4,
   h5 {
     font-weight: 700;
-    color: #002157;
+    color: #cb1f25;
     text-shadow: -1px 2px 2px rgba(255, 255, 255, 0.35);
   }
   h1 {
@@ -180,47 +180,48 @@ form {
   div svg {
     text {
       fill: #002157;
+      animation-name: svgfillgreen;
+      animation-timing-function: ease-out;
+      animation-iteration-count: infinite;
+      animation-delay: 0s;
       &#vulneravel {
-        animation-name: svgfillred;
-        animation-duration: 5s;
-        animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
-        animation-delay: 0s;
+        animation-duration: 3s;
       }
       &#recem {
-        animation-name: svgfillred;
-        animation-duration: 8s;
-        animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
-        animation-delay: 0s;
+        animation-duration: 2.5s;
       }
       &#lgbt {
-        animation-name: svgfillred;
-        animation-duration: 3s;
-        animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
-        animation-delay: 0s;
+        animation-duration: 1.8s;
       }
       &#portugues {
-        animation-name: svgfillgreen;
-        animation-duration: 15s;
-        animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
-        animation-delay: 0s;
+        animation-duration: 2.1s;
       }
       &#vida {
-        animation-name: svgfillgreen;
-        animation-duration: 12s;
-        animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
-        animation-delay: 0s;
+        animation-duration: 1.6s;
       }
       &#emprego {
-        animation-name: svgfillgreen;
-        animation-duration: 6s;
-        animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
-        animation-delay: 0s;
+        animation-duration: 2.4s;
+      }
+      &#talentos {
+        animation-duration: 3.3s;
+      }
+      &#saude {
+        animation-duration: 2s;
+      }
+      &#empreendedorismo {
+        animation-duration: 2.8s;
+      }
+      &#palestras {
+        animation-duration: 2.4s;
+      }
+      &#eventos {
+        animation-duration: 1.4s;
+      }
+      &#workshops {
+        animation-duration: 1.6s;
+      }
+      &#educacao {
+        animation-duration: 1.6s;
       }
     }
   }

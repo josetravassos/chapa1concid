@@ -1,7 +1,8 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1036.42 413.73">
     <text id="recem" transform="translate(74.76 192.66)"
-        style="font-size:41.067649841308594px;font-family:Roboto-Light, Roboto;font-weight:300">Recém-chegados</text><text
-        transform="translate(0 99.68)" style="font-size:68.54827117919922px;font-family:Roboto-Regular, Roboto">
+        style="font-size:41.067649841308594px;font-family:Roboto-Light, Roboto;font-weight:300">Recém-chegados</text>
+    <text id="palestras" transform="translate(0 99.68)"
+        style="font-size:68.54827117919922px;font-family:Roboto-Regular, Roboto">
         <tspan style="letter-spacing:-0.005370873052911046em">P</tspan>
         <tspan x="42.88" y="0">alest</tspan>
         <tspan x="190.85" y="0" style="letter-spacing:-0.019531742587642027em">r</tspan>
@@ -49,23 +50,23 @@
         style="font-size:74.1858901977539px;font-family:Roboto-Light, Roboto;font-weight:300">Emp<tspan x="149.06" y="0"
             style="letter-spacing:-0.009280424628790728em">r</tspan>
         <tspan x="173.33" y="0">ego</tspan>
-    </text><text transform="translate(52.31 335.55) rotate(-90)"
+    </text><text id="workshops" transform="translate(52.31 335.55) rotate(-90)"
         style="font-size:44.72715377807617px;font-family:Roboto-Light, Roboto;font-weight:300">
         <tspan style="letter-spacing:-0.015152638112470368em">W</tspan>
         <tspan x="39.42" y="0">orkshops</tspan>
-    </text><text transform="translate(308.74 93.98) scale(1.06 1)"
+    </text><text id="informacao" transform="translate(308.74 93.98) scale(1.06 1)"
         style="font-size:49.05452346801758px;font-family:Roboto-Light, Roboto;font-weight:300">Informação</text><text
         transform="translate(636.61 193.01)"
         style="font-size:48.10340118408203px;font-family:Roboto-Regular, Roboto">Network</text><text
-        transform="translate(636.61 338.95)"
+        id="empreendedorismo" transform="translate(636.61 338.95)"
         style="font-size:41.067649841308594px;font-family:Roboto-Black, Roboto;font-weight:800">Emp<tspan x="81.47"
             y="0" style="letter-spacing:-0.00927395106541758em">r</tspan>
         <tspan x="96.65" y="0" style="letter-spacing:0.000011889680853099463em">eendedorismo</tspan>
     </text><text id="vida" transform="translate(636.61 244.18)"
         style="font-size:49.821876525878906px;font-family:Roboto-Black, Roboto;font-weight:800">Qualidade de
-        vida</text><text transform="translate(85.04 393.63)"
+        vida</text><text id="saude" transform="translate(85.04 393.63)"
         style="font-size:74.1858901977539px;font-family:Roboto-Light, Roboto;font-weight:300">Saúde</text><text
-        transform="translate(299.1 369.45) scale(1.06 1)"
+        id="talentos" transform="translate(299.1 369.45) scale(1.06 1)"
         style="font-size:35.48868179321289px;font-family:Roboto-Light, Roboto;font-weight:300">
         <tspan style="letter-spacing:-0.055168812752353184em">T</tspan>
         <tspan x="19.23" y="0">alen</tspan>
