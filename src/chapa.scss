@@ -173,6 +173,77 @@ form {
   display: inline-flex;
 }
 
+.svg-wrapper {
+  padding: 0 20px;
+  div svg {
+    text {
+      fill: #002157;
+      &#vulneravel {
+        animation-name: svgfillred;
+        animation-duration: 5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+      }
+      &#recem {
+        animation-name: svgfillred;
+        animation-duration: 8s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+      }
+      &#lgbt {
+        animation-name: svgfillred;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+      }
+      &#portugues {
+        animation-name: svgfillgreen;
+        animation-duration: 15s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+      }
+      &#vida {
+        animation-name: svgfillgreen;
+        animation-duration: 12s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+      }
+      &#emprego {
+        animation-name: svgfillgreen;
+        animation-duration: 6s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+      }
+    }
+  }
+}
+
+@keyframes svgfillred {
+  0%,
+  100% {
+    fill: #002157;
+  }
+  50% {
+    fill: #cb1f25;
+  }
+}
+
+@keyframes svgfillgreen {
+  0%,
+  100% {
+    fill: #002157;
+  }
+  50% {
+    fill: #4b7700;
+  }
+}
+
 // Accordion styles
 
 .accordion > .card > .card-header {

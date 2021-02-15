@@ -1,7 +1,9 @@
 import React from 'react';
 import Mesas from './Mesas';
 import Propostas from './Propostas';
+import { ReactSVG } from 'react-svg';
 import Carousel from 'react-bootstrap/Carousel';
+import { Container } from 'react-bootstrap';
 
 const Home = () => {
   return (
@@ -62,6 +64,13 @@ const Home = () => {
             </Col>
           </Row>
         </Container> */}
+      <Container>
+        <ReactSVG
+          className="svg-wrapper u-transp-bckg-10"
+          src="images/tag-colage-inline-styles.svg"
+        />
+      </Container>
+
       <Propostas />
       <Mesas />
     </>
