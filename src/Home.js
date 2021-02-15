@@ -64,13 +64,12 @@ const Home = () => {
             </Col>
           </Row>
         </Container> */}
-      <Container>
+      <Container fluid className="u-transp-bckg-10">
         <ReactSVG
-          className="svg-wrapper u-transp-bckg-10"
+          className="svg-wrapper"
           src="images/tag-colage-inline-styles.svg"
         />
       </Container>
-
       <Propostas />
       <Mesas />
     </>

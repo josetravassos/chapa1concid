@@ -174,7 +174,8 @@ form {
 }
 
 .svg-wrapper {
-  padding: 0 20px;
+  max-width: 960px;
+  margin: 0 auto;
   div svg {
     text {
       fill: #002157;
@@ -310,6 +311,9 @@ footer {
 }
 .u-mb-30 {
   margin-bottom: 30px !important;
+}
+.u-pt-30 {
+  padding-top: 30px !important;
 }
 
 .u-align-items-start {

@@ -7,7 +7,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const Propostas = () => (
-  <Section headingText="Nossas propostas" className="u-mt-zero">
+  <Section
+    headingText="Nossas propostas"
+    paddingTop="30"
+    className="u-mt-zero u-pt-30"
+  >
     <Row xs={1} md={2}>
       <Col>
         <Accordion defaultActiveKey="0">
