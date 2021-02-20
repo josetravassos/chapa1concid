@@ -67,7 +67,7 @@ const Home = () => {
       <Container fluid className="u-transp-bckg-10">
         <ReactSVG
           className="svg-wrapper"
-          src="images/tag-colage-inline-styles.svg"
+          src="images/tag-colage-outlines.svg"
         />
       </Container>
       <Propostas />
