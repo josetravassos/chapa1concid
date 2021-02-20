@@ -102,7 +102,7 @@ header {
 section {
   text-align: left;
   padding: 60px 0;
-  border-bottom: 1px solid #4b7700;
+  // border-bottom: 1px solid #4b7700;
 
   h1,
   h2,
@@ -118,7 +118,7 @@ section {
     // background-color: #ffffff;
     //  border: 1px solid #002157;
     border-radius: 6px;
-    max-width: 480px;
+    max-width: 680px;
     margin: 0 auto;
   }
 
@@ -267,6 +267,14 @@ form {
 .tab-content,
 .card {
   background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border: none;
+  b {
+    font-weight: 700;
+  }
+}
+
+.accordion-card.card {
   padding: 10px;
 }
 
@@ -290,7 +298,8 @@ form {
 footer {
   padding: 60px 0;
   height: fit-content;
-  // background-color: #fafafa;
+  border-top: 1px solid #4b7700;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 // UTILITY

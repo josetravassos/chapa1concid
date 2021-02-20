@@ -71,7 +71,7 @@ const Home = () => {
         />
       </Container>
       <Propostas />
-      <Mesas />
+      {/* <Mesas /> */}
     </>
   );
 };
