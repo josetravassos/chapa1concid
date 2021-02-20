@@ -8,11 +8,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const Chapa2019 = () => (
   <>
-    <Section
-      headingText="Chapa1 2019"
-      paddingTop="30"
-      className="u-mt-zero u-pt-30"
-    >
+    <Section headingText="Chapa1 2019" className="u-mt-zero">
       <Row xs={1} md={2}>
         <Col>
           <Accordion defaultActiveKey="0">

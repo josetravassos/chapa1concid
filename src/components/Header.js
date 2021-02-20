@@ -32,17 +32,13 @@ const Header = () => (
         </Row>
       </Container>
     </header>
-    <Container fluid className="main-nav--wrapper">
+    <Container fluid className="main-nav--wrapper u-mb-30">
       <Nav>
         <Nav.Item>
-          <Nav>
-            <Link to="/">Home</Link>
-          </Nav>
+          <Link to="/">Home</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav>
-            <Link to="/integrantes">Integrantes</Link>
-          </Nav>
+          <Link to="/integrantes">Integrantes</Link>
         </Nav.Item>
       </Nav>
     </Container>
