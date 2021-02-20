@@ -1,10 +1,7 @@
 import React from 'react';
 import Section from './components/Section';
 import Card from 'react-bootstrap/Card';
-import Accordion from 'react-bootstrap/Accordion';
-
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 const Propostas = () => (
   <>

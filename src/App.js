@@ -12,13 +12,13 @@ import './chapa.scss';
 const App = () => (
   <>
     <Router>
-      <Header></Header>
+      <Header />
       <main>
-        <Route path="/" exact component={Home}></Route>
-        <Route path="/integrantes" component={Integrantes}></Route>
-        <Route path="/chapa2019" component={Chapa2019}></Route>
+        <Route path="/" exact component={Home} />
+        <Route path="/integrantes" component={Integrantes} />
+        <Route path="/chapa2019" component={Chapa2019} />
       </main>
-      <Footer></Footer>
+      <Footer />
     </Router>
   </>
 );
