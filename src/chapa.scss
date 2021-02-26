@@ -282,6 +282,97 @@ form {
   }
 }
 
+.integrante-cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  @include breakpoint(sm) {
+    flex-direction: row;
+  }
+}
+
+.integrante-card {
+  position: relative;
+  margin: 20px;
+}
+
+.integrante-card--img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  @include breakpoint(sm) {
+    width: 180px;
+    height: 180px;
+  }
+
+  @include breakpoint(md) {
+    width: 240px;
+    height: 240px;
+  }
+
+  @include breakpoint(lg) {
+    width: 280px;
+    height: 280px;
+  }
+}
+.integrante-card--btn {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  &:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  @include breakpoint(sm) {
+    width: 180px;
+    height: 180px;
+  }
+
+  @include breakpoint(md) {
+    width: 240px;
+    height: 240px;
+  }
+  @include breakpoint(lg) {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+.integrante-card--name {
+  background-color: #002157;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+  width: 150px;
+  left: 0;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+  @include breakpoint(sm) {
+    width: 120px;
+    height: 120px;
+  }
+  @include breakpoint(md) {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .accordion-card.card {
   padding: 10px;
 }
@@ -289,6 +380,10 @@ form {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
   color: #65a000;
+}
+
+.modal-dialog {
+  max-width: 90% !important;
 }
 
 // Footer styles

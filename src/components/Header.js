@@ -11,7 +11,7 @@ const Header = () => (
       <Container fluid>
         <Row xs={1} md={3} className="u-align-items-center">
           <Col className="logo-wrapper">
-            <img src="images/logo-chapa1.png" alt="" />
+            <img src="/logo-chapa1.png" alt="" />
           </Col>
           <Col>
             <div className="leaves-bckg">

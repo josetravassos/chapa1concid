@@ -9,11 +9,11 @@ const Footer = () => (
     <Container>
       <Row>
         <Col>
-          <img src="images/logo-chapa1.png" alt="" />
+          <img src="/logo-chapa1.png" alt="" />
         </Col>
         <Col>
-          <h4>Contato:</h4>
-          <p>yyy@yyy.ca</p>
+          {/* <h4>Contato:</h4>
+          <p>yyy@yyy.ca</p> */}
           <Link to="/chapa2019">Conheça a Chapa1 2019</Link>
         </Col>
       </Row>
