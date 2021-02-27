@@ -6,31 +6,7 @@ import { pageAnimation } from './lib/animation';
 
 import { IntegrantesJson } from './lib/integrantes-json';
 
-// export const fotos = [
-//   {
-//     id: 'Ana',
-//     foto: './images/ana-silva.png',
-//   },
-// ];
-import Carolina from './images/carolina-hack.png';
-import Ana from './images/ana-silva.png';
-import Corine from './images/corine.png';
-import Cris from './images/cris-dias.png';
-import Daniela from './images/daniela.png';
-import Jean from './images/jean-dumet.png';
-import Jose from './images/jose-travassos.png';
-import Lilian from './images/lilian.png';
-import Natalia from './images/natalia-batista.png';
-import Rod from './images/rod-silva.png';
-import Rafael from './images/rafael-torres.png';
-
 const IntegranteDetail = (props) => {
-  // const fotos = [
-  //   {
-  //     id: 'Ana',
-  //     foto: './images/ana-silva.png',
-  //   },
-  // ];
   const history = useHistory();
   const url = history.location.pathname;
 
@@ -52,7 +28,11 @@ const IntegranteDetail = (props) => {
             <div className="integrante-detail--wrapper">
               <div className="integrante-detail--foto-bio">
                 <div className="integrante-detail--foto">
-                  <img src={Corine} alt="" className="integrante-card--img" />
+                  <img
+                    src={require('./images/' + integrante.foto)}
+                    alt=""
+                    className="integrante-card--img"
+                  />
                 </div>
                 <div
                   className="integrante-detail--bio"
