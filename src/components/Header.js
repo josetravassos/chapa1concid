@@ -24,11 +24,13 @@ const Header = () => (
           <Col className="nav-wrapper">
             <Nav>
               <Nav.Item>
-                <Nav.Link href="http://instagram.com">Instagram</Nav.Link>
+                <Nav.Link href="https://www.instagram.com/concidchapa1/">
+                  Instagram
+                </Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              {/* <Nav.Item>
                 <Nav.Link href="http://facebook.com">Facebook</Nav.Link>
-              </Nav.Item>
+              </Nav.Item> */}
             </Nav>
           </Col>
         </Row>
