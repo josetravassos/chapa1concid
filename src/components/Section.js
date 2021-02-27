@@ -3,12 +3,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 const Section = ({ children, headingLevel = 1, headingText, paddingTop }) => {
-  // const headingRef = useRef(null);
-
-  // useEffect(() => {
-  //   headingRef.current.focus();
-  // }, []);
-
   const H = `h${headingLevel}`;
 
   return (

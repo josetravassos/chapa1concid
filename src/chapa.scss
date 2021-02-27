@@ -284,6 +284,7 @@ form {
 
 .integrante-cards-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
@@ -371,6 +372,41 @@ form {
     width: 150px;
     height: 150px;
   }
+}
+
+.integrante-detail--wrapper {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.integrante-detail--foto-bio {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  grid-template-areas: 'foto' 'bio';
+
+  @include breakpoint(sm) {
+    grid-template-columns: 180px, 1fr;
+    grid-template-areas: 'foto bio';
+  }
+
+  @include breakpoint(md) {
+    grid-template-columns: 240px, 1fr;
+  }
+  @include breakpoint(lg) {
+    grid-template-columns: 280px, 1fr;
+  }
+}
+
+.integrante-detail--bio {
+  grid-area: bio;
+}
+
+.integrante-detail--foto {
+  grid-area: foto;
+}
+.integrante-detail--video {
+  text-align: center;
 }
 
 .accordion-card.card {

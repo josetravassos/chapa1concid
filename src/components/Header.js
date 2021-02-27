@@ -40,6 +40,9 @@ const Header = () => (
         <Nav.Item>
           <Link to="/integrantes">Integrantes</Link>
         </Nav.Item>
+        <Nav.Item>
+          <Link to="/chapa2019">2019</Link>
+        </Nav.Item>
       </Nav>
     </Container>
   </>

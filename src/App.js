@@ -20,7 +20,6 @@ const App = () => (
         <Route path="/integrantes/:id" component={IntegranteDetail} />
         <Route path="/chapa2019" component={Chapa2019} />
       </main>
-      <Footer />
     </Router>
   </>
 );
