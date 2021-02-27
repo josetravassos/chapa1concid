@@ -5,10 +5,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Accordion from 'react-bootstrap/Accordion';
+import { motion } from 'framer-motion';
+import { pageAnimation } from './lib/animation';
 
 const Chapa2019 = () => (
-  <>
-    <Section headingText="Chapa1 2019" className="u-mt-zero">
+  <motion.div variants={pageAnimation} initial="hidden" animate="show">
+    <Section headingText="Chapa1 - 2019" className="u-mt-zero">
       <Row xs={1} md={2}>
         <Col>
           <Accordion defaultActiveKey="0">
@@ -174,7 +176,7 @@ const Chapa2019 = () => (
         </Col>
       </Row>
     </Section>
-  </>
+  </motion.div>
 );
 
 export default Chapa2019;

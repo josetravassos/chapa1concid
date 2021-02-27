@@ -289,7 +289,7 @@ form {
   justify-content: space-between;
   flex-direction: column;
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.4);
 
   @include breakpoint(sm) {
     flex-direction: row;
@@ -306,6 +306,7 @@ form {
   height: 240px;
   object-fit: cover;
   border-radius: 50%;
+  border: 10px solid #00a040;
 
   @include breakpoint(sm) {
     width: 180px;
@@ -355,23 +356,16 @@ form {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 0;
-  height: 150px;
-  width: 150px;
+  bottom: -20px;
+  width: 120px;
+  height: 120px;
+  padding: 8px;
   left: 0;
   border-radius: 50%;
-  color: white;
+  color: #ffef00;
   font-weight: 700;
   text-align: center;
   line-height: 1.2;
-  @include breakpoint(sm) {
-    width: 120px;
-    height: 120px;
-  }
-  @include breakpoint(md) {
-    width: 150px;
-    height: 150px;
-  }
 }
 
 .integrante-detail--wrapper {
@@ -432,6 +426,10 @@ footer {
 }
 
 // UTILITY
+
+hr {
+  border: 1px solid #00a040;
+}
 
 .u-mx-auto {
   margin-left: auto !important;

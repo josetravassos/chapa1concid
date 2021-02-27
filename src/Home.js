@@ -1,10 +1,12 @@
 import React from 'react';
 import Propostas from './Propostas';
 import { Col, Row, Container } from 'react-bootstrap';
+import { motion } from 'framer-motion';
+import { pageAnimation } from './lib/animation';
 
 const Home = () => {
   return (
-    <>
+    <motion.div variants={pageAnimation} initial="hidden" animate="show">
       <Container fluid className="u-transp-bckg-10">
         <Row>
           <Col>
@@ -867,7 +869,7 @@ const Home = () => {
         </Row>
       </Container>
       <Propostas />
-    </>
+    </motion.div>
   );
 };
 
