@@ -5,13 +5,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 
+import Logo from '../images/logo-chapa1.png';
+
 const Header = () => (
   <>
     <header>
       <Container fluid>
         <Row xs={1} md={3} className="u-align-items-center">
           <Col className="logo-wrapper">
-            <img src="/logo-chapa1.png" alt="" />
+            <img src={Logo} alt="" />
           </Col>
           <Col>
             <div className="leaves-bckg">

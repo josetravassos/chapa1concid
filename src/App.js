@@ -7,14 +7,19 @@ import Integrantes from './Integrantes';
 import IntegranteDetail from './IntegranteDetail';
 import Home from './Home';
 import Chapa2019 from './chapa2019';
-import { motion, AnimatePresence } from 'framer-motion';
-import { pageAnimation } from './lib/animation';
+import { AnimatePresence } from 'framer-motion';
 
 import './chapa.scss';
 
 const App = () => (
   <>
     <Router>
+      <div
+        className="background-image"
+        style={{
+          backgroundImage: `url(${require('./images/' + 'hands-square.jpg')})`,
+        }}
+      ></div>
       <Header />
       <main>
         <Route
