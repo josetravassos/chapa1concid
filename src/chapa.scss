@@ -29,9 +29,8 @@
   width: 100%;
   height: 1000px;
   z-index: -1;
-  background: url('images/hands-square.jpg') no-repeat center top;
   background-size: contain;
-  background-position: center top fixed;
+  background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -50,7 +49,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  // border-bottom: 1px solid #65a000;
   text-align: center;
 
   .logo-wrapper {
@@ -93,9 +91,6 @@ header {
       margin-top: initial;
     }
     .leaves-bckg {
-      h1 {
-        font-size: 36px;
-      }
       p {
         font-size: 24px;
       }
@@ -121,15 +116,19 @@ section {
   h4,
   h5 {
     font-weight: 700;
-    color: #cb1f25;
     text-shadow: -1px 2px 2px rgba(255, 255, 255, 0.35);
   }
   h1 {
-    padding: 4px;
-    border-radius: 6px;
+    font-size: 32px;
+    padding: 10px;
+    border-radius: 16px 16px 0 0;
     max-width: 680px;
     margin: 0 auto;
     color: #002157;
+    &.h1-2019 {
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
   }
 
   &:nth-child(1) {
@@ -300,11 +299,12 @@ form {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 30px;
-  background-color: rgba(255, 255, 255, 0.4);
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.9);
 
   @include breakpoint(sm) {
     flex-direction: row;
+    padding: 30px;
   }
 }
 
@@ -469,6 +469,12 @@ hr {
 .u-mb-30 {
   margin-bottom: 30px !important;
 }
+.u-mb-10 {
+  margin-bottom: 10px !important;
+}
+.u-mb-1 {
+  margin-bottom: 1px !important;
+}
 .u-pt-30 {
   padding-top: 30px !important;
 }
@@ -515,8 +521,15 @@ hr {
   border: none !important;
 }
 
+.u-padding-30 {
+  padding: 0;
+  @include breakpoint(sm) {
+    padding: 30px;
+  }
+}
+
 .u-transp-bckg {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .u-transp-bckg-10 {
   background-color: rgba(255, 255, 255, 0.3);

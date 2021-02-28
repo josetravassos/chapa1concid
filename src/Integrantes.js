@@ -4,19 +4,19 @@ import Section from './components/Section';
 import { motion } from 'framer-motion';
 import { pageAnimation } from './lib/animation';
 
-import Carolina from './images/carolina.png';
-import Ana from './images/ana.png';
-import Corine from './images/corine.png';
-import Cintia from './images/placeholder.png';
-import Cris from './images/cris.png';
-import Daniela from './images/daniela.png';
-import Jean from './images/jean.png';
-import Jose from './images/jose.png';
-import Lilian from './images/lilian.png';
-import Leila from './images/leila.png';
-import Natalia from './images/natalia.png';
-import Rod from './images/rod.png';
-import Rafael from './images/rafael.png';
+import Carolina from './images/carolina.jpg';
+import Ana from './images/ana.jpg';
+import Corine from './images/corine.jpg';
+import Cintia from './images/cinthia.jpg';
+import Cris from './images/cris.jpg';
+import Daniela from './images/daniela.jpg';
+import Jean from './images/jean.jpg';
+import Jose from './images/jose.jpg';
+import Lilian from './images/lilian.jpg';
+import Leila from './images/leila.jpg';
+import Natalia from './images/natalia.jpg';
+import Rod from './images/rod.jpg';
+import Rafael from './images/rafael.jpg';
 
 const Integrantes = () => {
   return (

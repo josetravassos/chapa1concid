@@ -42,14 +42,16 @@ const IntegranteDetail = (props) => {
 
               <hr className="u-mt-30 u-mb-30" />
               <div className="integrante-detail--video">
-                <iframe
-                  width="100%"
-                  height="505"
-                  src={integrante.video}
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+                {integrante.video && (
+                  <iframe
+                    width="100%"
+                    height="505"
+                    src={integrante.video}
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                )}
               </div>
             </div>
           </Section>

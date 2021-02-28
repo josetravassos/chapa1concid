@@ -7,7 +7,7 @@ const Section = ({ children, headingLevel = 1, headingText, paddingTop }) => {
 
   return (
     <section style={{ paddingTop: paddingTop + 'px' }}>
-      <H className="u-align-center u-mb-30 u-transp-bckg-10">{headingText}</H>
+      <H className="u-align-center u-transp-bckg">{headingText}</H>
       <Container>{children}</Container>
     </section>
   );
