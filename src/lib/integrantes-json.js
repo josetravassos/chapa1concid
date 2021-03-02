@@ -17,7 +17,7 @@ export const IntegrantesJson = () => {
         '<p>Carolina Hack possui mais de dez anos de experiência em análises de dados, pesquisas de mercado, responsável por área de CRM, Segmento Pessoa Júrídica para Pequenas Empresas  atuando nos principais bancos do Brasil (BankBoston, Unibanco, Itau, Santander).</p> <p>Há 5 anos vivendo no Canadá e em 2018 fundou junto ao seu sócio Luis Sérgio a GC5 Trading, cujo objetivo é desenvolver e apoiar projetos de exportação e importação  envolvendo Brasil e Canadá, atuando na área de alimentos, farmacêutica, bens de consumo e têxtil. Cases: Membro da CCBC (Câmera de Comercio Brasil e Canadá), participante do comitê de COMEX</p>',
     },
     {
-      video: '',
+      video: 'https://www.youtube.com/embed/LHoC35WiEx8',
       url: '/integrantes/cinthia-alcantara',
       name: 'Cinthia Alcantara',
       foto: 'cinthia.jpg',
@@ -85,7 +85,7 @@ export const IntegrantesJson = () => {
       name: 'Jose Alexandre Travassos',
       foto: 'jose.jpg',
       bio:
-        '<p>Sou natural de Salvador, Bahia e moro no Canadá há 7 anos. Sou publicitário de formação mas atuo na área de TI como desenvolvedor Front-end. Comecei minha carreira no Brasil como Webdesigner e como minha função me colocava em contato com diferentes linguagens de programação, acabei adquirindo conhecimento também na área desenvolvimento.</p> <p>A mudança para o Canadá me abriu ótimas oportunidades como desenvolvedor. Aqui, o mercado de TI tem uma forte demanda por esse tipo de profissional, o que me levou a migrar de vez para essa área.</p> <p>Sou também músico nas horas vagas e gosto muito de colaborar em projetos musicais. A minha intenção ao me juntar ao Concid é, através da minha experiência profissional e a minha vivência no Canadá, poder trocar informações e ajudar a comunidade brasileira.</p>',
+        '<p>Natural de Salvador, Bahia, José Travassos mora no Canadá há 7 anos. É Publicitário de formação mas atua na área de TI como desenvolvedor Front-end. Iniciou a sua carreira no Brasil como Designer e como sua função o colocava em contato com diferentes linguagens de programação, acabou adquirindo conhecimento também na área desenvolvimento.</p> <p>A mudança para o Canadá abriu ótimas oportunidades como desenvolvedor. O mercado de TI no Canadá tem uma forte demanda por esse tipo de profissional, o que o levou a migrar da área de Comunicação para a área de Tecnologia.</p> <p>José também é músico nas horas vagas e gosta muito de colaborar em projetos culturais. A sua meta junto ao Concid é, através da sua experiência profissional e vivência no Canadá, poder trocar informações e ajudar a comunidade brasileira.</p>',
     },
     {
       video: 'https://www.youtube.com/embed/jI3pfNdnWGM',
