@@ -30,7 +30,7 @@ const Propostas = () => (
     </Section>
 
     <Section
-      headingText="Eventos & Workshops"
+      headingText="Comunicação & Campanhas"
       paddingTop="30"
       className="u-mt-zero u-pt-30"
     >
@@ -69,7 +69,7 @@ const Propostas = () => (
       </Row>
     </Section>
     <Section
-      headingText="Comunicação & Campanhas"
+      headingText="Eventos & Workshops"
       paddingTop="30"
       className="u-mt-zero u-pt-30"
     >
