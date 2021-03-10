@@ -49,6 +49,14 @@ export const IntegrantesJson = () => {
         'Advogada e professora com mestrado e doutorado pela PUC-SP Consultora Educacional especialista em imigracao na Ingwe Canada  Formada em Marketing  Educacional  no Canada Empreendedora, educadora e gestora de negocios para newcommers',
     },
     {
+      video: '',
+      url: '/integrantes/elisa',
+      name: 'Elisa',
+      foto: 'elisa.jpg',
+      bio:
+        'Elisa é Psicóloga no Brasil e está no Canadá há dois anos e meio. Ela trabalha atualmente com marketing e vendas e coordena como voluntária o projeto de apoio emocional aos imigrantes Brasileiros “Roda de Conversa”  no Networking para Brasileiros. É engajada também no projeto de apoio emocional á comunidade LGBTQIA+ em conjunto com o grupo ACT.',
+    },
+    {
       video: 'https://www.youtube.com/embed/hAzc5jikscQ',
       url: '/integrantes/leila-farah',
       name: 'Leila Farah',

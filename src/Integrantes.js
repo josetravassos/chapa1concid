@@ -17,6 +17,7 @@ import Leila from './images/leila.jpg';
 import Natalia from './images/natalia.jpg';
 import Rod from './images/rod.jpg';
 import Rafael from './images/rafael.jpg';
+import Elisa from './images/elisa.jpg';
 
 const Integrantes = () => {
   return (
@@ -66,6 +67,12 @@ const Integrantes = () => {
               to="/integrantes/daniela-emmerich"
             >
               <span className="integrante-card--name">Daniela Miskulin</span>
+            </Link>
+          </div>
+          <div className="integrante-card">
+            <img src={Elisa} alt="" className="integrante-card--img" />
+            <Link className="integrante-card--btn" to="/integrantes/elisa">
+              <span className="integrante-card--name">Elisa</span>
             </Link>
           </div>
           <div className="integrante-card">
