@@ -75,15 +75,7 @@ const Integrantes = () => {
               <span className="integrante-card--name">Elisa</span>
             </Link>
           </div>
-          <div className="integrante-card">
-            <img src={Leila} alt="" className="integrante-card--img" />
-            <Link
-              className="integrante-card--btn"
-              to="/integrantes/leila-farah"
-            >
-              <span className="integrante-card--name">Leila Farah</span>
-            </Link>
-          </div>
+
           <div className="integrante-card">
             <img src={Lilian} alt="" className="integrante-card--img" />
             <Link
@@ -124,12 +116,6 @@ const Integrantes = () => {
               to="/integrantes/rafael-torres"
             >
               <span className="integrante-card--name">Rafael Torres</span>
-            </Link>
-          </div>
-          <div className="integrante-card">
-            <img src={Rod} alt="" className="integrante-card--img" />
-            <Link className="integrante-card--btn" to="/integrantes/rod-silva">
-              <span className="integrante-card--name">Rod Silva</span>
             </Link>
           </div>
         </div>

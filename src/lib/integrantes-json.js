@@ -90,7 +90,7 @@ export const IntegrantesJson = () => {
     {
       video: 'https://www.youtube.com/embed/lzC4FxF61gU',
       url: '/integrantes/jose-travassos',
-      name: 'Jose Alexandre Travassos',
+      name: 'Jose Travassos',
       foto: 'jose.jpg',
       bio:
         '<p>Natural de Salvador, Bahia, José Travassos mora no Canadá há 7 anos. É Publicitário de formação mas atua na área de TI como desenvolvedor Front-end. Iniciou a sua carreira no Brasil como Designer e como sua função o colocava em contato com diferentes linguagens de programação, acabou adquirindo conhecimento também na área desenvolvimento.</p> <p>A mudança para o Canadá abriu ótimas oportunidades como desenvolvedor. O mercado de TI no Canadá tem uma forte demanda por esse tipo de profissional, o que o levou a migrar da área de Comunicação para a área de Tecnologia.</p> <p>José também é músico nas horas vagas e gosta muito de colaborar em projetos culturais. A sua meta junto ao Concid é, através da sua experiência profissional e vivência no Canadá, poder trocar informações e ajudar a comunidade brasileira.</p>',

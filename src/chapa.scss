@@ -64,7 +64,7 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     h1 {
-      font-size: 24px;
+      font-size: 32px;
       font-weight: 900;
       text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
       text-transform: uppercase;
@@ -74,10 +74,21 @@ header {
     p {
       color: #4b7700;
       font-weight: 900;
-      font-size: 18px;
+      font-size: 24px;
       margin: 0;
       line-height: 1;
-      text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+      // text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    @include breakpoint(sm) {
+      h1 {
+        font-size: 24px;
+      }
+    }
+    @include breakpoint(md) {
+      h1 {
+        font-size: 36px;
+      }
     }
   }
 
@@ -167,12 +178,13 @@ form {
       transition: background-color 0.3s linear;
       margin: 0.5em;
       padding: 10px 20px;
-      background-color: #ffffff;
+      background-color: #00a040;
+      color: #fff;
       border-radius: 6px;
       &:focus,
       &:active,
       &:hover {
-        background-color: #fae8e8;
+        background-color: #002157;
       }
     }
   }
@@ -304,7 +316,6 @@ form {
 
   @include breakpoint(sm) {
     flex-direction: row;
-    padding: 30px;
   }
 }
 
@@ -381,8 +392,11 @@ form {
 }
 
 .integrante-detail--wrapper {
-  padding: 30px;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.9);
+  @include breakpoint(sm) {
+    padding: 30px;
+  }
 }
 
 .integrante-detail--foto-bio {
@@ -410,6 +424,7 @@ form {
 
 .integrante-detail--foto {
   grid-area: foto;
+  text-align: center;
 }
 .integrante-detail--video {
   text-align: center;
