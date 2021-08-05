@@ -100,15 +100,7 @@ const Integrantes = () => {
               <span className="integrante-card--name">Jean Dumet</span>
             </Link>
           </div>
-          <div className="integrante-card">
-            <img src={Jose} alt="" className="integrante-card--img" />
-            <Link
-              className="integrante-card--btn"
-              to="/integrantes/jose-travassos"
-            >
-              <span className="integrante-card--name">Jose Travassos</span>
-            </Link>
-          </div>
+          
           <div className="integrante-card">
             <img src={Rafael} alt="" className="integrante-card--img" />
             <Link
